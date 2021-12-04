@@ -1,0 +1,392 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*-----navigation----*/
+#nav-bar
+{
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        
+}
+.navbar-brand img
+{
+    height:50px;
+    padding-left: 0px;
+}
+
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+}
+.navbar
+{
+    background: #000000!important;
+    height: 60px;
+
+}
+.navbar-toggler
+{
+    display: inline-block;
+}
+.nav-link
+{
+    columns: #0000!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*---------------------------------------------------------------------slider-------------------------------------------------------------------*/
+#slider
+{
+    width: 100%;
+}
+.carousel-caption 
+{
+    top:80%;
+    transform: translateY(-30%);
+    bottom: initial!important;
+
+}
+.carousel-caption h5
+{
+    color: #000000;
+    font-size: 30px;
+
+}
+.carousel-caption blockquote
+{
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+/*-------------------------------------------------------About library------------------------------------------------------------------------------*/
+#about
+{
+    padding-top:50px;
+    padding-bottom: 50px;
+    color:#555;
+}
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content
+{
+    padding-top:20px ;
+}
+
+.skills-bar p
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom:20px ;
+}
+
+/*----------------------------------------------------our services----------------------------------------------------------------------------------------------------------------------------*/
+#services
+  {
+      background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/back.jpg);
+      background-size: cover;
+        background-position: center;
+        color: #efefef!important;
+        background-attachment: fixed;
+        padding-top: 50px;
+        padding-bottom: 50px;
+  }
+  #services h1
+{
+    text-align: center;
+    color: #efefef!important;
+    padding-bottom: 10px;
+
+}
+#services h1::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    width: 170px;
+    height: 3px;
+    margin: 20px auto 5px;
+}
+.services
+{
+    margin-top: 40px;
+}
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius:  50%;
+}
+.services p
+{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+
+}
+.services .col-md-3:hover
+{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+/*--------------------------------------------------newarrivals---------------------------------------------------------------------------------------------------------*/
+#newarrivals
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#newarrivals .row
+{
+    margin-top: 30px;
+}
+
+.col-md-4
+{
+    margin: 40px auto;
+}
+.book
+{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+.type
+{
+    width: 120px;
+    height: 150px;
+}
+.book img
+{
+    top: -70px;
+    left: 130px;
+    position: absolute;
+    left: calc(60% -60px);
+    border: 10px solid#0000;
+}
+.book h3
+{
+    font-size: 20px;
+    margin-top: 15px;
+    color:#000000;
+
+}
+#newarrivals span
+{
+    font-size: 12px;
+    color: #00070e;
+}
+blockquote
+{
+    font-size: 16px;
+    line-height: 30px;
+}
+.book:hover
+{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+/*-------------------------------------------------------------category-----------------------------------------------------------------------*/
+#cateogory
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#cateogory .row
+{
+    margin-top: 30px;
+}
+.col-md-4
+{
+    margin: 40px auto;
+}
+.level
+{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+.name
+{
+    width: 150px;
+    height: 160px;
+}
+.level h3
+{
+    font-size: 20px;
+    margin-top: 15px;
+    color:#000000;
+
+}
+blockquote
+{
+    font-size: 16px;
+    line-height: 30px;
+}
+.level:hover
+{
+    box-shadow: 0 0 15px 5px rgba(34, 167, 240, 0.5);
+    cursor: pointer;
+    transition: 0.5s;
+}
+/*---------------------------------------------------------------------------------------Contact us----------------------------------------------------*/
+#contact
+{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+
+}
+.contact-form
+{
+    padding:15px;
+}
+.form-control
+{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder
+{
+    color: #999 !important;
+}
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin:15px;
+}
+.contact-info .fa
+{
+    margin:15px;
+    color: #007bff;
+    font-weight: bold;
+}
+/*--------------------------------------------------------------about us------------------------------------------------------------------------------*/
+#team
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+    
+}
+h1
+{
+    text-align: center;
+    color: #555!important;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content:'';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width:160px;
+    margin: 20px auto 5px;
+}
+.profile-pic
+{
+    margin-top: 25px;
+   margin-left: 45px;
+    margin-right: 45px;
+    
+}
+.profile-pic .img-box
+{
+    opacity:1;
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box
+{
+     filter: grayscale(100%);
+}
+ .img-box:hover
+{
+   filter: grayscale(0);
+    cursor: pointer;
+}
+.profile-pic h2
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color:#007bff!important;
+}
+.profile-pic h3
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#team.fa
+{
+    height: 25px;
+    width: 25px;
+    color: #007bff!important;
+    background: #fff;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.img-box ul
+{
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.img-box:hover ul
+{
+
+    opacity: 1;
+}
+.img-box ul, .img-box ul li,
+{
+    transition: 0.5s;
+
+}
+/*--------footer-----------*/
+#footer
+{
+    background: #333333;
+    color: #fff;
+    padding: 12px;
+
+
+}
+.fa-copyright
+{
+    margin: 3px;
+    color: #fff;
+    font-weight: bold;
+}
+.container i
+{
+    letter-spacing: 3px;
+}
